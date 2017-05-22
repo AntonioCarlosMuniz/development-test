@@ -7,7 +7,7 @@ class Welcome extends CI_Controller {
 	{
         $path = dirname(__FILE__);
 
-        file_put_contents('cron.txt', "*/30 * * * *  php $path/Welcome.php createOrder");
+        file_put_contents('cron.txt', "*/30 * * * *  php $path/welcome.php createOrder");
         exec('crontab cron.txt');
         $this->load->helper('url');
 		$this->home();

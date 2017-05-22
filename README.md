@@ -1,26 +1,9 @@
-## Development Knowledge Test
+# CodeIgniter 2
+Open Source PHP Framework (originally from EllisLab)
 
-This will be a practical test to analyze your knowledge using GIT and CodeIgniter. However, any additional knowledge that can be used, i.e., reasonable, will also be analyzed.
+For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
+(also available within the download package for offline use)
 
-### Test
-
-To begin, you should fork this repository. This will be your workstation.
-
-1. Create a CodeIgniter/Laravel APP on your fork. We're currently using CodeIgniter version 2 and Laravel version 5.3.
-2. Your app must have these tasks:  
- a. A CRUD for products.  
- b. A cron to create an order with random products every thirty minutes.  
- c. A page displaying all orders, the query should be cached.  
-
-### Tasks Explanation
-
-2.a - This should be basic stuff (name of product, price, stock quantity).  
-2.b - Orders must include random products that is available in stock. Also include new informations, like total value and an unique identifier.  
-2.c - Display a view with all created orders sorted by latest created. This query should be cached, because orders are only created every thirty minutes.  
-
-### Conclusion
-
-Will be also analyzed, code organization (we follow PSR-2), creativity and functionality.
-When you finish, do a PR and we analyze.
-
-**Do your best! :wink:**
+**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
+Please update your installation to the latest CodeIgniter 3.x version available
+(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
